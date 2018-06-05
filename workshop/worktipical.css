@@ -1,0 +1,100 @@
+body {
+	padding:8px;
+	margin: 0px;
+}
+.wrap {
+	min-width: 440px;
+	max-width: 680px;
+}
+h1 {
+	margin-top: 0.3em;
+}
+table {
+	width: 100%;
+}
+form {
+	margin-top: 30px;
+}
+
+
+/**/
+body {
+	background: #F8F8F8;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #666666;
+}
+h1 {
+	font-size: 29px;
+}
+ul li {
+	list-style: url(icon-plus.png);
+	margin-bottom: 8px;
+}
+table {
+	font-size: 13px;
+	border-collapse: separate;
+	text-align: left;
+	border-spacing: 0px 1px;
+}
+thead{
+	background: #92AAD8;
+	color: white;
+	letter-spacing: 2px;
+	text-shadow: -1px -1px 1px #5A72A1;
+}
+thead th {
+	border-bottom: 2px solid #5A72A1;
+	border-right: 1px solid #5A72A1;
+}
+thead th:last-child {
+	border-top-right-radius: 5px;
+}
+thead th:first-child {
+	border-top-left-radius: 5px;
+}
+tbody tr {
+	background: #DFE7F0;
+}
+tbody tr:nth-child(even) {
+	background: #E8EDF5;
+}
+td, th {
+	padding: 6px;
+	border-bottom: 1px solid #CAD0D8;
+	border-right: 1px solid #CAD0D8;
+	border-top: #F1F7FF;
+}
+td {
+	text-shadow: 1px 1px 1px #fff;
+}
+fieldset {
+	background: white;
+	border: 1px solid #CAD0D8;
+	width: 335px;
+}
+fieldset div {
+	margin-bottom: 5px;
+}
+.title {
+	float: left;
+	width: 150px;
+}
+div input[type="checkbox"] {
+	width: auto;
+	margin-right: 25px;
+	margin-left: 5px;
+}
+input[type="submit"] {
+	clear: both;
+	color: white;
+	background: #009966;
+	border: 1px solid #006633;
+	border-radius: 5px;
+	margin: 10px 250px;
+	line-height: 1.6em;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #00cc33;
+}
