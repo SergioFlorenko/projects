@@ -1,0 +1,198 @@
+@font-face {
+    font-family: "QuicksandBook";
+    /*src: url(WebFont.eot?) format("eot"),  IE8+, знак ? позволяет обойти баг в обработчике значения src */
+         src: url(Quicksand_Book-webfont.woff) format("woff"), /* все современные браузеры, IE9+ */
+         url(Quicksand_Book.otf) format("otf"); /* все современные браузеры */
+}
+header { 
+	position: fixed; 
+	z-index: 5;
+	width: 100%;
+	min-width: 960px;
+	top: 0px; left: 0px;
+}
+.header_wrap { 
+	width: 960px;
+	margin: 0px auto;
+}
+.header_wrap .logo {
+	margin-bottom: 16px;
+	margin-left: 32px;
+}
+.header_wrap .triangleHeader {
+	vertical-align: bottom;
+}
+nav {
+	float: right;
+	margin-top: 40px;
+}
+.wrap {
+	width: 960px;
+	margin: 0px auto;
+	margin-top: 100px;
+	position: relative;
+}
+.triangle {
+	width: 577px; height: 335px;
+	position: absolute;
+	top: 42px;
+	left: 123px;
+}
+.bicycle {
+	width: 621px; height: 535px;
+	position: absolute;
+	top: -100px;
+}
+h3.quote {
+	position: absolute;
+	left: 500px;
+	top: 35px;
+}
+.sellText {
+	position: absolute;
+	width: 220px;
+	left: 735px;
+	top: 103px;
+}
+.subwhite {
+	position: absolute;
+	top: 470px;
+	width: 960px;
+}
+.subdiv{
+	position: absolute;
+	top: 470px;
+	width: 960px;
+	padding: 10px;
+	padding-top: 40px;
+}
+.artList {
+	width: 222px;
+	float: left;
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.artList_img {
+	margin-bottom: 15px;
+}
+hr.gray {
+	margin: 10px auto;
+}
+footer {
+	clear: both;
+	margin-top: 20px;
+	padding: 15px;
+}
+
+
+
+
+
+
+/**/
+hr.subwhite { 
+	border: none;
+	height: 1px;
+	background: #ffffff;
+	color: #fff;
+}
+hr.gray { 
+	border: none;
+	height: 1px;
+	background: #b5c1ad;
+	color: #b5c1ad;
+}
+body {
+	background-color: #44453F;
+	background-image: url(img/bg.jpg);
+}
+header {
+	background-color: #31342B;
+	background-image: url(img/bg-header.jpg);
+}
+nav {
+	color: #b5c1ad;
+	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+.nav_item {
+	text-decoration: none;
+	color: #b5c1ad;
+}
+.nav_item:hover { color: white; }
+.triangle {
+	background-image: url(img/triangles.png);
+}
+.bicycle {
+	background-image: url(img/bg-triangle.png);
+}
+h3.quote a {
+	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	font-size: 35px;
+	color: #b5c1ad;
+	text-decoration: none;
+}
+h3.quote a:hover {
+	color: #ffffff;
+}
+.sellText p.date {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 18px;
+	font-size: 10px;
+	color: #b5c1ad;
+}
+.sellText p.text {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #ffffff;
+	text-align: justify;
+}
+.text .continue a {
+	color: #b5c1ad;
+	text-decoration: none;
+}
+.text .continue a:hover {
+	color: #ffffff;
+}
+.artLink a {
+	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	color: #b5c1ad;
+	text-decoration: none;
+}
+.artLink a:hover {
+	color: #ffffff;
+}
+.artList a {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #b5c1ad;
+	text-decoration: none;
+}
+.artList a:hover {
+	color: #ffffff;
+}
+.links {
+       	color: #ffffff;
+	font-size: 11px;
+}
+.links a {
+	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color: #807c72;
+	text-decoration: none;
+	line-height: 2px;
+}
+footer {
+	background-color: #31342B;
+	background-image: url(img/bg-header.jpg);
+	text-align: right;
+}
+
+
+
+
+
+
+
