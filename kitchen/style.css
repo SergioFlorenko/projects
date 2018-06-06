@@ -1,0 +1,153 @@
+.wrap {
+	width: 940px;
+	margin: 20px auto;
+}
+header img {
+	vertical-align: bottom;
+}
+nav {
+}
+nav ul li {
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+.content {
+	width: 660px;
+	float: right;
+}
+article {
+	clear: both;
+	margin: 20px;
+	display: inline-block;
+}
+figure {
+	padding: 5px;
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+}
+hgroup, p.desc {
+	padding-top: 18px;
+}
+h3 {
+	padding-top: 5px;
+}
+aside {
+	width: 255px;
+	float: right;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+aside h2 {
+	margin-bottom: 10px;
+}
+aside li {
+	width: 230px; height: 62px;
+	padding-left: 10px;
+}
+aside ul li a {
+	display: block;
+}
+h2.contact {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+footer {
+	clear: both;
+	height: 35px;
+}
+footer p.copy {
+	padding-left: 20px;
+	height: 100%;
+}
+
+
+
+/**/
+body {
+	background-color: #3A2418;
+	background-image: url(dark-wood.jpg);
+	font-family: Georgia, Times, serif;
+}
+.wrap {
+	border: 2px solid black;
+	background-color: #ffffff;
+}
+nav {
+	background-color: #ACABA6;
+}
+nav ul li {
+	text-align: center;
+	vertical-align: middle;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+}
+nav a:hover {
+	color: black;
+}
+nav a.current {
+	color: black;
+}
+.content {
+	border-right: 1px solid #EDEDEE;
+}
+figure {
+	border: 1px solid #EDEDEE;
+}
+figcaption {
+	color: #666666;
+	font-size: 14px;
+	line-height: 22px;
+}
+article h2 {
+	color: #666666;
+	font-size: 24px;
+	line-height: 22px;
+}
+h3 {
+	color: #de6581;
+	font-size: 19px;
+	line-height: 22px;
+}
+p.desc {
+	color: #666666;
+	font-size: 16px;
+	line-height: 22px;
+}
+aside h2 {
+	color: #de6581;
+	font-size: 24px;
+}
+aside li {
+	border-bottom: 1px solid #EDEDEE;
+}
+aside li a {
+	text-decoration: none;
+	color: #de6581;
+	font-size: 16px;
+	line-height: 62px;
+	vertical-align: middle;
+}
+aside li a:hover {
+	color: #985d6a;
+}
+aside li:hover {
+	background-color: #EDEDEE;
+}
+aside address {
+	color: #666666;
+	line-height: 22px;
+}
+footer p.copy {
+	font-size: 13px;
+	color: #ffffff;
+	background-color: #ACABA6;
+	line-height: 35px;
+	vertical-align: top;
+}
+
