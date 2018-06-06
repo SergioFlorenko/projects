@@ -1,0 +1,28 @@
+body {
+	padding: 20px;
+}
+.but_add {
+	background: purple;
+	background-image: url(but.jpg);
+	width: 175px; height: 35px;
+	display: inline-block;
+}
+.but_add:hover {
+	background-position: 0px -40px;
+}
+.but_add:active {
+	background-position: 0px -80px;
+}
+.but_frame {
+	background: purple;
+	background-image: url(but.jpg);
+	width: 205px; height: 35px;
+	display: inline-block;
+	background-position: -180px 0px;
+}
+.but_frame:hover {
+	background-position: -180px -40px;
+}
+.but_frame:active {
+	background-position: -180px -80px;
+}
