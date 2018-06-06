@@ -1,0 +1,57 @@
+.wrap {
+	width: 702px;
+	margin: 45px auto;
+}
+header p {
+	margin-top: 20px;
+}
+.row {
+	margin-top: 20px;
+}
+figure {
+	float: left;
+	margin: 10px;
+	padding: 9px;
+}
+.row figure:first-child {
+	margin-left: 0px;
+}
+.row figure:last-child {
+	margin-right: 0px;
+}
+figcaption {
+	padding-left: 20px;
+}
+
+/**/
+body {
+	background-color: #D1D0C3;
+	background-image: url(backdrop.gif);
+	font-family: Georgia, "Times New Roman", serif;;
+	font-size: 16px;
+	color: #665544;
+}
+header {
+	text-align: center;
+}
+figure {
+	background-color: #E5E5D6;
+}
+figure img {
+	border: 1px solid #D5D5D5;
+	width: 200px; height: 150px;
+}
+figure figcaption {
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
