@@ -1,0 +1,10 @@
+#!/bin/bash
+
+for((i=1;i<=33;i++))
+do
+	let "x = $i % 2"
+	if [[ $x = 1 ]]; then
+		echo "http://semeynaya-kuchka.ru/wp-content/uploads/2016/07/nazvania-obuvi$i.jpg"
+	fi
+
+done
