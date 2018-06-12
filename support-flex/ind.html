@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+	<title>Support flex without flex</title>
+</head>
+<body>
+	<p class="source">Source: <a href="https://habr.com/post/281254/">habr 8 апреля 2016</a>. In forum born real HollyWar. It this complite exemple with original flex-box model</p>
+	<section class="prop-part">
+		<p class="desc">Отображает элементы горизонтально, and verticale. About reverse it weird.</p>
+		<pre class="prettyprint lang-html">
+			.el { display: flex; }
+			.el__item { flex-direction: row; }
+		</pre>
+		<pre class="prettyprint">
+			.el__item { display: inline-block; }
+		</pre>
+	</section>
+	<section class="prop-part">
+		<p>Сужает элементы для предотвращения переноса, flex just nowrap items. Table ignore .el width</p>
+		<pre class="prettyprint">
+			.el { display: flex; }
+			.el__item { flex-wrap: nowrap; }
+		</pre>
+		<pre class="prettyprint">
+			.el { display: table; }
+			.el__item { display: table-cell; }
+		</pre>
+	</section>
+	<section class="prop-part">
+		<p></p>
+		<pre class="prettyprint"></pre>
+		<pre class="prettyprint"></pre>
+	</section>
+
+
+
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace("HOST", location.hostname));
+//]]></script>	
+</body>
+</html>
