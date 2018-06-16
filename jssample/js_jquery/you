@@ -1,0 +1,14 @@
+var Ball = function () {
+	this.x = 100;
+	this.y = 100;
+	this.xSpeed = -2;
+	this.ySpeed = 3;
+};
+var circle = function (x, y, radius, fillCircle) {
+	ctx.beginPath();
+	ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+	if (fillCircle) { ctx.fill(); } else { ctx.stroke(); }
+};
+Ball.prototype.draw = function () {circle(this.x, this.y, 3, true);};
+var ball = new Ball();
+ball.draw();
